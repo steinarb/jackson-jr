@@ -24,6 +24,7 @@ has no other dependencies, and provides additional builder-style content generat
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
       <version>${jackson.version.core}</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
@@ -93,6 +94,10 @@ has no other dependencies, and provides additional builder-style content generat
       <plugin>
         <groupId>org.moditect</groupId>
         <artifactId>moditect-maven-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.karaf.tooling</groupId>
+        <artifactId>karaf-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
