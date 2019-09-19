@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="${project.artifactId}">
+    <repository>mvn:com.fasterxml.jackson.jr/jackson-jr-objects/${jackson.version.jacksonjr}/xml/features</repository>
+    <feature name="${project.artifactId}">
+        <feature>jackson-jr-objects</feature>
+    </feature>
+</features>
